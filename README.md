@@ -9,9 +9,9 @@ The installRealSenseROS script will install librealsense and realsense_camera as
 
 This is the third step of a three step process.
 
-The first step requires install librealsense (version 2). For the D4XX cameras, librealsense 2 requires a modified kernel which modularizes uvcvideo and adds the RealSense video modes to the uvcvideo driver.
+The first step requires the installation of librealsense (version 2). For the D4XX cameras, librealsense requires a modified kernel which modularizes uvcvideo and adds the RealSense video modes to the uvcvideo driver among other things.
 
-One way to accomplish this is to use the 'installLibrealsense' repository on the Github JetsonHacksNano account (https://github.com/JetsonHacksNano/installLibrealsense.git). There are scripts which download the kernel source, apply the necessary patches, make the kernel, and then copy the kernel images to the boot directory. There are also scripts to build the librealsense library itself.
+One way to accomplish this is to use the 'installLibrealsense' repository on the Github JetsonHacksNano account (https://github.com/JetsonHacksNano/installLibrealsense). There are scripts which download the kernel source, apply the necessary patches, make the kernel, and then copy the kernel images to the boot directory. There are also scripts to build the librealsense library itself.
 
 The second step is to install ROS on the Jetson Nano. There are convenience scripts to help do this on the Github JetsonHacksNano account in the installROS repository (https://github.com/JetsonHacksNano/installROS). Note that the repository installs ros-base, if other configurations such as ros-desktop are desired, the scripts can do that through the command line parameters. You may want to install rviz.
 
@@ -21,7 +21,7 @@ To install:
 
 $ ./installRealSenseROS.sh \<catkin_ws_name\>
 
-The script 'setupTX.sh' simply turns off the USB autosuspend setting on the Jetson Nano so that the camera is always available. 
+The script 'setupNano.sh' simply turns off the USB autosuspend setting on the Jetson Nano so that the camera is always available. 
 
 
 <h3>Releases:</h3>
