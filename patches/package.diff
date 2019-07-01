@@ -1,0 +1,12 @@
+diff --git a/realsense2_camera/package.xml b/realsense2_camera/package.xml
+index 83a8ab3..06c6f3e 100644
+--- a/realsense2_camera/package.xml
++++ b/realsense2_camera/package.xml
+@@ -25,7 +25,6 @@
+   <depend>tf</depend>
+   <depend>ddynamic_reconfigure</depend>
+   <depend>diagnostic_updater</depend>
+-  <depend>librealsense2</depend>
+   <export>
+     <nodelet plugin="${prefix}/nodelet_plugins.xml" />
+   </export>
