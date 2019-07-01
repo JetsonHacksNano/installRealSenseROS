@@ -1,7 +1,7 @@
 # installRealSenseROS
 Install the realsense-ros library on NVIDIA Jetson Nano Developer Kit.
 <br>MIT License
-<br>Copyright (c) 2018-19 Jetsonhacks
+<br>Copyright (c) 2018-19 JetsonHacks
 
 Currently in development
 
