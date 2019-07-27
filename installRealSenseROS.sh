@@ -9,8 +9,8 @@
 # Figure out where to install realsense-ros
 # Save the directory we're installing from:
 INSTALL_DIR=$PWD
-# This version uses librealsense v2.22.0
-REALSENSE_ROS_VERSION=2.2.6
+# This version uses librealsense v2.24.0
+REALSENSE_ROS_VERSION=2.2.7
 # Now go get ready to install realsense-ros
 source /opt/ros/melodic/setup.bash
 DEFAULTDIR=catkin_ws
