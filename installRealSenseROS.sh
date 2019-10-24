@@ -4,13 +4,13 @@
 # MIT License
 # Usage:
 # ./installRealSenseROS.sh <catkin workspace>
-# If <catkin workspace> is omitted "catkin_ws" assumed
+# If <catkin workspace> is omitted "~/catkin_ws" assumed
 # ROS should already be installed, and a catkin workspace created
 # Figure out where to install realsense-ros
 # Save the directory we're installing from:
 INSTALL_DIR=$PWD
-# This version uses librealsense v2.24.0
-REALSENSE_ROS_VERSION=2.2.7
+# This version uses librealsense v2.25.0
+REALSENSE_ROS_VERSION=2.2.8
 # Now go get ready to install realsense-ros
 source /opt/ros/melodic/setup.bash
 DEFAULTDIR=catkin_ws
