@@ -25,6 +25,13 @@ The script 'setupNano.sh' simply turns off the USB autosuspend setting on the Je
 
 
 <h3>Releases:</h3>
+<b>December 2019</b>
+
+* L4T 32.3.1
+* JetPack 4.3
+* Requires librealsense v2.31.0
+* Installs RealSense ROS Version = 2.2.11
+
 <b>October 2019</b>
 
 * L4T 32.2.1

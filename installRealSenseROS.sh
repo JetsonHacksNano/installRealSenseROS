@@ -9,10 +9,16 @@
 # Figure out where to install realsense-ros
 # Save the directory we're installing from:
 INSTALL_DIR=$PWD
-# This version uses librealsense v2.25.0
-REALSENSE_ROS_VERSION=2.2.8
+# This version uses librealsense v2.31.0
+REALSENSE_ROS_VERSION=2.2.11
 # Now go get ready to install realsense-ros
 source /opt/ros/melodic/setup.bash
+# In L4T 32.3.1, opencv4 contains the opencv installation
+# Make a symbolic link
+cd /usr/include
+sudo ln -s opencv4 opencv
+cd $INSTALL_DIR
+
 DEFAULTDIR=catkin_ws
 CLDIR="$1"
 if [ ! -z "$CLDIR" ]; then 
